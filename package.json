@@ -1,0 +1,18 @@
+{
+  "name": "sdk-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "register": "tsx registerAgent.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.30.1",
+    "dotenv": "^16.4.7",
+    "fxn-protocol-sdk": "github:Oz-Networks/fxn-protocol-sdk#main",
+    "tsx": "^4.19.2"
+  }
+}
