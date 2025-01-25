@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "register": "tsx registerAgent.ts"
+    "register": "tsx functions/registerAgent.ts",
+    "getRequests": "tsx functions/getSubscriptionRequests.ts"
   },
   "author": "",
   "license": "ISC",
